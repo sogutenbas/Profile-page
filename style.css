@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+    position:relative;
+    background:linear-gradient(to right, #52c4e9,#8ea0f2);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+        width: 30vw;
+        height: 80vh;
+        background: white;
+        position: relative;
+        margin: 0 auto;
+        top: 7vh;  
+}
+.login-all{
+    width: 20vw;
+    height: 50vh;
+    background: white;
+    position: relative;
+    margin:0 auto;
+    top:27vh;
+    left: 0.5vw;
+}
+/* Ana Baslik */
+h1{
+    float: center;
+    font-size: 2.5rem;
+    color: #7bfbfbec;
+    position: relative;
+    bottom:11vh;
+}
+h2{
+    float: center;
+    font-size: 0.8rem;
+    position: relative;
+    bottom:14vh;
+    color:gray;
+}
+/* Oturum acma bolumu */
+.textbox{
+    width: 20vw;
+    overflow: hidden;
+    font-size: 1rem;
+    padding: 2vh 0;
+    margin: 2vh 0;
+    border-bottom:0.3vh solid #7bfbfbec;
+    position: relative;
+    bottom:6vh;
+}
+.textbox i{
+    width: 2vw;
+    float: left;
+    text-align:center;
+    color:gray;
+}
+.textbox input{
+    border:none;
+    outline: none;
+    background: none;
+    color: gray;
+    font-size: 1rem;
+    width: 15vw;
+    float: left;
+    margin: 0 2vh;
+}
+/* Sifremi unuttum bolumu */
+#click {
+    font-size: 0.8rem;
+    position: relative;
+    bottom:5vh;
+    color:gray;
+}
+/* Buton */
+.button{
+    width: 20vw;
+    height: 5.5vh;
+    padding: 1vh;
+    font-size:1rem;
+    cursor: pointer;
+    background:linear-gradient(to right, #c35def,#5e26ff);
+    color:white;
+    border-radius: 1vh;
+    position: relative;
+    outline: none;
+    border:none;
+    bottom: 5vh;
+}
+  /* Yeni Hesap olusturma bolumu */
+.click1{
+    font-size: 0.8rem;
+    position: relative;
+    bottom:5vh;
+    display: flex;
+    justify-content:flex-start;
+}
+.click1 p{
+    position: relative;
+    top:0.6vh;
+    color:gray;
+}
+h4{
+    color: #7bfbfbec;
+}
+  /* Arka plana circle koyma */
+.circle{
+height:20vh;
+width:5vw;
+border-radius: 60vh 0 0 60vh;
+background:linear-gradient(to right, #38d1df,#b467db);
+position: absolute;
+left:25vw;
+top:6vh;
+}
+.circle1{
+height:20vh;
+width:5vw;
+border-radius: 0 60vh 60vh 0;
+background:linear-gradient(to right, #38d1df,#b467db);
+position: absolute;
+top:50vh;
+}
